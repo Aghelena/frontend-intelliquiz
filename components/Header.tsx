@@ -8,8 +8,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-neutral-800 bg-black/60 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <img src="/Logo.png" alt="" className="w" />
         <Link href="/" className="text-xl font-semibold text-amber-300">
-          QuizLab
+          IntelliQuiz
         </Link>
         <nav className="flex items-center gap-3">
           <Link
